@@ -1,3 +1,5 @@
+box: node
+
 build:
   steps:
     - shellcheck:
@@ -14,4 +16,3 @@ publish:
 
     - internal/publish-step:
       owner: wercker
-      
