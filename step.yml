@@ -1,0 +1,31 @@
+name: k8s-deploy
+version: 0.1
+summary: Provides high level deployment approaches.
+tags:
+ - kubernetes
+ - deployment
+ - rolling-update
+ - blue-green
+ - canary
+properties:
+- name: url
+  type: string
+  required: true
+- name: server
+  type: string
+  required: true
+- name: token
+  type: string
+  required: true
+- name: deployment
+  type: string
+  required: true
+- name: old-image
+  type: string
+  required: true
+- name: new-image
+  type: string
+  required: true
+- name: type
+  type: string
+  required: true
