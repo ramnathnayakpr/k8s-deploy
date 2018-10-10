@@ -1,7 +1,8 @@
 box: debian:stable-slim
 build:
     steps:
-        - shellcheck
+        - shellcheck:
+            files: run.sh
 
         - install-packages:
             packages: curl
@@ -27,5 +28,7 @@ build:
 
 publish:
   steps:
+    - install-packages:
+        packages: ca-certificates
     - internal/publish-step:
         owner: wercker
