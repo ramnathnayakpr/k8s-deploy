@@ -1,3 +1,4 @@
+set -x
 echo $K8S_DEPLOY_URL
 echo $K8S_DEPLOY_SERVER
 echo $K8S_DEPLOY_TOKEN
