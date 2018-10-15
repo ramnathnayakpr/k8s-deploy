@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 echo Started K8s-deploy
 
 if [ ${WERCKER_K8S_DEPLOY_TYPE} = "rolling-update" ]
