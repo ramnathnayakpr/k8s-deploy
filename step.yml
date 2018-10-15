@@ -1,5 +1,5 @@
 name: k8s-deploy
-version: 0.1.7
+version: 0.1.8
 summary: Provides high level deployment approaches.
 tags:
  - kubernetes
