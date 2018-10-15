@@ -1,5 +1,5 @@
 name: k8s-deploy
-version: 0.1.3
+version: 0.1.4
 summary: Provides high level deployment approaches.
 tags:
  - kubernetes
@@ -8,9 +8,6 @@ tags:
  - blue-green
  - canary
 properties:
-- name: url
-  type: string
-  required: true
 - name: server
   type: string
   required: true
